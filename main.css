@@ -1,0 +1,155 @@
+
+body{
+	
+	
+	background-color: #ffffff;
+}
+
+.topmenu{
+	list-style-type: none;
+	margin: 0 px;
+	padding: 0;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+.topmenu li{
+	float: right;
+	padding: 15px;
+}
+
+.topmenu li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+.topmenu a li:hover {
+	text-decoration: underline;
+}
+
+
+.2:hover {
+	background-image: url('applicationgoogle1.png' );
+}
+
+.policegoogle{
+	display: block;
+	margin: auto;
+	margin-top: 20vh;
+}
+
+#google {
+	display: flex;
+	
+	margin: auto;
+    justify-content: center;
+}
+
+#recherche {
+	width: 666px;
+	height: 43px;
+	box-shadow: 2px 1px 8px #aaa;
+	
+}
+
+#recherche:hover {
+	
+	box-shadow: 2px 2px 8px #aaa;
+}
+
+.micro {
+	box-shadow: 2px 1px 8px #aaa;
+	height: 43px;
+}
+
+.micro:hover {
+	box-shadow: 2px 2px 8px #aaa;
+}
+
+#bouton {
+	margin-left: 80vh;
+	margin-top: 4vh;
+	box-shadow: 1px 1px 5px #aaa;
+	display: inline-block
+}
+
+#bouton:hover {
+	box-shadow: 1px 3px 5px #aaa;
+	
+}
+
+.bouton a:hover {
+	
+	color: black;
+}
+
+
+.button {
+	padding: 8px;
+	color: grey;
+}
+
+#parag {
+	display: flex;
+	margin-left: 80vh;
+	margin-top: 1vh;
+}
+
+
+#parag a{
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+#parag a:hover{
+	margin-left: 5px;
+	text-decoration: underline;
+
+}
+
+
+footer{
+	background-color: gainsboro;
+	border-left-style: none;
+	border-right-style: none;
+	margin-top: 18vh;
+	position:absolute;
+	width:99%;
+	color: gray;
+}
+
+footer .contenu1{
+	border-bottom: 1px solid lightgray;
+	
+	margin-left: 43px;
+}
+
+.gauche{
+	
+	
+	padding: 0;
+	margin-left: -5px
+	float: left;
+}
+
+.droite li{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	padding: 5px;
+	margin-right: 5px;
+	color: gray;
+}
+
+.gauche  li{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	float: left;
+	margin-right: 5px;
+	padding: 5px;
+	color: gray;
+}
+
